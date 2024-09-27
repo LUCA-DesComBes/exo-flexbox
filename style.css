@@ -8,6 +8,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 nav {
 	display: flex;
@@ -25,11 +26,43 @@ img {
 	border-radius: 50%;
 }
 article {
+	display: flex;
+	flex-direction: column;
+	gap: 43.5px;
 	background-color: antiquewhite;
-	padding: 25px;
+	padding: 25px 25px 25px 0;
 }
 .flex-row {
 	display: flex;
+	align-items: center;
 	flex-direction: row;
-    gap: 15px;
+	gap: 15px;
+}
+h1 {
+	padding-left: 15px;
+}
+button {
+	padding: 15px;
+	border: none;
+	background-color: antiquewhite;
+}
+button:first-child {
+    margin-left: 25px;
+}
+.dollar {
+	height: 1.7rem;
+	width: 1.7rem;
+    margin-left: 15px;
+}
+.gray {
+	background-color: rgb(242, 226, 206);
+	color: #dbd8d8;
+}
+.fleche {
+	height: 1rem;
+	width: 1rem;
+    margin-left: 65px;
+}
+ul {
+    margin-left: 35px;
 }
